@@ -30,19 +30,30 @@ namespace Variables
             int i = 1;
             byte b = (byte) i; //casting is necessary
             Console.WriteLine(b);*/
-            try
+            /*try
             {
-                /*var number = "1234";
+                var number = "1234";
                 byte b = Convert.ToByte(number);
-                Console.WriteLine(b);*/
+                Console.WriteLine(b);
                 string str = "true";
                 bool b = Convert.ToBoolean(str);
-                Console.WriteLine(b);       
+                Console.WriteLine(b);
             }
             catch (Exception)
             {
                 Console.WriteLine("the number cannot be converted to a byte");
-            }
+            }*/
+            
+                    //arithmetic op
+             var a = 1;
+             var b = 2;
+             var c = 3;
+            Console.WriteLine(a+b);
+            Console.WriteLine((float) a/ (float) b);
+            Console.WriteLine(a+b *c);
+            Console.WriteLine(a>b);
+            Console.WriteLine(c>b && c>a);
+
             
         }
     }
