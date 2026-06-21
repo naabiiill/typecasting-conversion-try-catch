@@ -43,42 +43,47 @@ namespace Variables
             {
                 Console.WriteLine("the number cannot be converted to a byte");
             }*/
-            
-                    //arithmetic op
-             /*var a = 1;
-             var b = 2;
-             var c = 3;
-            Console.WriteLine(a+b);
-            Console.WriteLine((float) a/ (float) b);
-            Console.WriteLine(a+b *c);
-            Console.WriteLine(a>b);
-            Console.WriteLine(c>b && c>a); */
+
+            //arithmetic op
+            /*var a = 1;
+            var b = 2;
+            var c = 3;
+           Console.WriteLine(a+b);
+           Console.WriteLine((float) a/ (float) b);
+           Console.WriteLine(a+b *c);
+           Console.WriteLine(a>b);
+           Console.WriteLine(c>b && c>a); */
 
 
-             /* Console.WriteLine("    /|");
-  Console.WriteLine("   / |");
-  Console.WriteLine("  /  |");
-  Console.WriteLine(" /   |");
-  Console.WriteLine("/____|\n");
-  */
- //methods
- /*
-  string name= "nabil mahmud";
-  Console.WriteLine(name.ToUpper());
-  Console.WriteLine(name.ToLower());
-  Console.WriteLine(name.Contains("mahmud"));
-  Console.WriteLine(name[3]);
-  Console.WriteLine(name.IndexOf("mahmud"));
-  Console.WriteLine(name.IndexOf('n'));
-  Console.WriteLine(name.Substring(6,3));
-  Console.WriteLine(name.ToUpper());*/
-
- /* Console.WriteLine(Math.Abs(-10));
-  Console.WriteLine(Math.Pow(3,2));
-  Console.WriteLine(Math.Sqrt(36));
-  Console.WriteLine(Math.Max(3,9));
-  Console.WriteLine(Math.Round(4.3));
+            /* Console.WriteLine("    /|");
+ Console.WriteLine("   / |");
+ Console.WriteLine("  /  |");
+ Console.WriteLine(" /   |");
+ Console.WriteLine("/____|\n");
  */
+            //methods
+            /*
+             string name= "nabil mahmud";
+             Console.WriteLine(name.ToUpper());
+             Console.WriteLine(name.ToLower());
+             Console.WriteLine(name.Contains("mahmud"));
+             Console.WriteLine(name[3]);
+             Console.WriteLine(name.IndexOf("mahmud"));
+             Console.WriteLine(name.IndexOf('n'));
+             Console.WriteLine(name.Substring(6,3));
+             Console.WriteLine(name.ToUpper());*/
+
+            /* Console.WriteLine(Math.Abs(-10));
+             Console.WriteLine(Math.Pow(3,2));
+             Console.WriteLine(Math.Sqrt(36));
+             Console.WriteLine(Math.Max(3,9));
+             Console.WriteLine(Math.Round(4.3));
+            */
+
+            //taking user input
+            Console.WriteLine("enter your name: ");
+           string name = Console.ReadLine();
+           Console.WriteLine("hello " + name);
 
             
         }
