@@ -116,7 +116,7 @@ namespace Variables
 //building a madLib with taking user input
 
 
-string color, plualNoun, celebrity;
+/*string color, plualNoun, celebrity;
 
 Console.Write("enter a color");
 color = Console.ReadLine();
@@ -134,7 +134,45 @@ Console.WriteLine("roses are" + color);
 Console.WriteLine(plualNoun +" are blue");
 Console.WriteLine("i love "+ celebrity);
 
-Console.ReadLine();
+Console.ReadLine();*/
+
+
+//creating a classs student with fields and siplay info
+
+/*using System;
+
+class Student
+{
+
+    public int id;
+    public string name;
+    public double cgpa;
+
+
+    public void DisplayInfo()
+    {
+        Console.WriteLine("Student ID: " + id);
+        Console.WriteLine("Student Name: " + name);
+        Console.WriteLine("CGPA: " + cgpa);
+
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+
+        Student s1 = new Student();
+
+
+        s1.id = 101;
+        s1.name = "Nabil";
+        s1.cgpa = 3.75;
+        s1.DisplayInfo();
+    }
+}*/
+
 
             
         }
