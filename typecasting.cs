@@ -1,5 +1,5 @@
 using System;
-
+//cd typecasting-conversion-try-catch
 namespace Variables
 {
     class Program
@@ -80,10 +80,15 @@ namespace Variables
              Console.WriteLine(Math.Round(4.3));
             */
 
-            //taking user input
-            Console.WriteLine("enter your name: ");
-           string name = Console.ReadLine();
-           Console.WriteLine("hello " + name);
+             //takin user inpuut
+
+ Console.Write("enter your name: ");
+ string name = Console.ReadLine();
+ Console.Write("enter your age");
+ string age = Console.ReadLine();
+ Console.WriteLine("hello " + name + "you are "+ age);
+
+ Console.ReadLine();
 
             
         }
