@@ -82,13 +82,59 @@ namespace Variables
 
              //takin user inpuut
 
- Console.Write("enter your name: ");
+ /*Console.Write("enter your name: ");
  string name = Console.ReadLine();
  Console.Write("enter your age");
  string age = Console.ReadLine();
  Console.WriteLine("hello " + name + "you are "+ age);
 
+ Console.ReadLine();*/
+
+ //building a calculator
+
+//int num = Convert.ToInt32("45");
+//Console.WriteLine(num+6);
+
+/* Console.Write("enter a number ");
+ int num1= Convert.ToInt32(Console.ReadLine());
+ Console.Write("enter another number ");
+ int num2= Convert.ToInt32 (Console.ReadLine());
+
+ Console.WriteLine(num1 + num2);
  Console.ReadLine();
+
+
+
+ Console.Write("enter a number ");
+ double num3 = Convert.ToDouble(Console.ReadLine());
+ Console.Write("enter another number ");
+ double num4 = Convert.ToDouble(Console.ReadLine());
+
+ Console.WriteLine(num3 + num4);
+ Console.ReadLine();*/
+
+//building a madLib with taking user input
+
+
+string color, plualNoun, celebrity;
+
+Console.Write("enter a color");
+color = Console.ReadLine();
+
+
+Console.Write("enter a plural noun");
+plualNoun = Console.ReadLine();
+
+Console.Write("enter a celebrity");
+celebrity = Console.ReadLine();
+
+
+
+Console.WriteLine("roses are" + color);
+Console.WriteLine(plualNoun +" are blue");
+Console.WriteLine("i love "+ celebrity);
+
+Console.ReadLine();
 
             
         }
