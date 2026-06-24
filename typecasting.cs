@@ -174,8 +174,8 @@ class Program
 }*/
 
 
-            //Array
-            int[] luckyNumbers = { 4, 8, 16, 32, 64, 128, 256 };
+            //Array 
+           /* int[] luckyNumbers = { 4, 8, 16, 32, 64, 128, 256 };
             //for updating
             //luckyNumbers[1] = 9;
 
@@ -185,7 +185,19 @@ class Program
             Console.WriteLine(luckyNumbers[1]);
 
 
-            Console.ReadLine();
+            Console.ReadLine(); */
+
+                        //methods
+/*
+            SayHi("nabil " , 22);
+            SayHi("mahmud ",23);
+            SayHi("lol ",24);
+
+        }
+
+        static void SayHi (string name, int age)
+        {
+            Console.WriteLine("hello "+ name+ "you are "+ age); */
 
             
         }
