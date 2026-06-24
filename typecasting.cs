@@ -207,6 +207,27 @@ class Program
         {
             int result = num * num* num;
             return result; */
+             /*       //if statements
+
+        bool isMale = false;
+        bool isTall = false;
+
+        if (isMale && isTall)
+        {
+            Console.WriteLine("you are a tall male");
+
+
+        } else if (isMale && !isTall) {
+            Console.WriteLine("youre a short male");
+        }else if (!isMale && isTall)
+        {
+            Console.WriteLine("youre a tall female");
+        }
+        else
+        {
+            Console.WriteLine("you are a short female");
+        }
+  */
 
             
         }
