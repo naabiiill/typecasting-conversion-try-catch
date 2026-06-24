@@ -198,6 +198,15 @@ class Program
         static void SayHi (string name, int age)
         {
             Console.WriteLine("hello "+ name+ "you are "+ age); */
+            
+/* //using return type int
+            Console.WriteLine(Cube(5))  ;
+        } 
+
+        static int Cube (int num)
+        {
+            int result = num * num* num;
+            return result; */
 
             
         }
