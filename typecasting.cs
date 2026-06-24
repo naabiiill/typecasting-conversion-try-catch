@@ -174,6 +174,19 @@ class Program
 }*/
 
 
+            //Array
+            int[] luckyNumbers = { 4, 8, 16, 32, 64, 128, 256 };
+            //for updating
+            //luckyNumbers[1] = 9;
+
+            string[] friends = new string[5];
+            friends[0] = "jim";
+            friends[1] = "lol";
+            Console.WriteLine(luckyNumbers[1]);
+
+
+            Console.ReadLine();
+
             
         }
     }
