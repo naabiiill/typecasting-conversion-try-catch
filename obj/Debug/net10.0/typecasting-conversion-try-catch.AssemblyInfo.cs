@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("typecasting-conversion-try-catch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb566c92362cf1141ccd7f516ae02cf0374a648f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a57c43aacc83bc0c3b79264e95c2bd79c5402b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("typecasting-conversion-try-catch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("typecasting-conversion-try-catch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
