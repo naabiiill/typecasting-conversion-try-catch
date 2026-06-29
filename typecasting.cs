@@ -282,6 +282,48 @@ static int GetMax(int num1, int num2, int num3)
  {
      Console.WriteLine("invalid operator");
  }    */
+
+ 
+            //switch satement
+
+          /*  Console.WriteLine(GetDay(8));
+
+        }
+
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+
+            switch(dayNum)
+            {
+                case 0:
+                    dayName = "sunday";
+                    break;
+                case 1:
+                    dayName = "monday";
+                    break;
+                case 2:
+                    dayName = "tuesday";
+                    break;
+                case 3:
+                    dayName = "wednesday";
+                    break;
+                case 4:
+                    dayName = "thursday";
+                    break;
+                case 5:
+                    dayName = "friday";
+                    break;
+                case 6:
+                    dayName = "saturday";
+                    break;
+                default:
+                    dayName = "invalid day name";
+                    break;            }
+
+
+            return dayName; */
+
             
         }
     }
