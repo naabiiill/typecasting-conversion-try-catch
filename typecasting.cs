@@ -324,6 +324,14 @@ static int GetMax(int num1, int num2, int num3)
 
             return dayName; */
 
+            //while loop
+            /*int index = 1;
+            while (index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;
+            } */
+
             
         }
     }
