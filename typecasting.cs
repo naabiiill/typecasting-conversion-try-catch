@@ -330,7 +330,8 @@ static int GetMax(int num1, int num2, int num3)
             {
                 Console.WriteLine(index);
                 index++;
-            } */
+            } 
+            */
 
             
         }
