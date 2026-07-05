@@ -309,7 +309,7 @@ static int GetMax(int num1, int num2, int num3)
                     dayName = "wednesday";
                     break;
                 case 4:
-                    dayName = "thursday";
+                    dayName =  "thursday";
                     break;
                 case 5:
                     dayName = "friday";
